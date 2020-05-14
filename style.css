@@ -29,7 +29,7 @@ a:hover {
     position: relative;
 }
 
-.bloc .container {
+.container {
     padding-left: 0;
     padding-right: 0;
     max-width: 1000px;
@@ -103,16 +103,14 @@ a:hover {
 .l-bloc .navbar a,
 .l-bloc .navbar-brand,
 .l-bloc a .icon-md,
-.l-bloc a .icon-lg,
-.l-bloc p a {
+.l-bloc a .icon-lg{
     color: rgba(0, 0, 0, .6);
 }
 
 .l-bloc .navbar a:hover,
 .l-bloc .navbar-brand:hover,
 .l-bloc a:hover .icon-md,
-.l-bloc a:hover .icon-lg,
-.l-bloc p a:hover {
+.l-bloc a:hover .icon-lg{
     color: rgba(0, 0, 0, 1);
 }
 
@@ -288,12 +286,33 @@ a {
     color: #575757!important;
 }
 
-.hero-bloc-text {
+h1 {
     font-size: 38px;
 }
 
+h2 {
+    font-size: 27px;
+    line-height: 1.4em;
+}
+
+h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333!important;
+}
+
 p {
-    font-size: 11px;
+    font-size: 16px;
+}
+
+.quote{
+  font-style: italic;
+  font-size: 18px;  
+}
+
+.aims{
+    font-size: 22px;
 }
 
 .tight-width-whitespace {
@@ -315,17 +334,7 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
-    font-size: 22px;
-    line-height: 1.4em;
-}
 
-h3 {
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #333333!important;
-}
 
 .med-width-whitespace {
     max-width: 800px;
@@ -356,14 +365,11 @@ h1 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 40px 40px 40px 40px;
 }
 
-.bold-link {
-    font-weight: 900;
-    text-decoration: underline!important;
-}
+
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
@@ -375,7 +381,7 @@ h1 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important; 
 }
 
 .btn-atomic-tangerine:hover {
@@ -383,8 +389,14 @@ h1 {
     color: #FFFFFF!important;
 }
 
+.team{
+    padding-top: 30px;
+}
+
 .ltc-white {
     color: #FFFFFF!important;
+    font-weight: 900;
+    text-decoration: underline!important;
 }
 
 .ltc-white:hover {

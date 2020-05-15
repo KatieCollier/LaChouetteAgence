@@ -72,6 +72,7 @@ a:hover {
     left: 0;
     right: 0;
     background: url("img/texture-paper.png");
+    opacity: 0.4;
     background-size: 280px 280px;
 }
 
@@ -81,7 +82,7 @@ a:hover {
 
 .d-bloc a .icon-md,
 .dark{
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, .8);
     font-weight: bold;
     text-align: center;
 }
@@ -375,7 +376,7 @@ label{
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: rgba(0, 0, 0, .5)!important; 
+    color: rgba(0, 0, 0, .8)!important; 
     font-weight: bold;
     font-size: 20px;
     margin-top: 22px;
@@ -407,10 +408,6 @@ label{
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
-}
-
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
 }
 
 .bg-banniere {

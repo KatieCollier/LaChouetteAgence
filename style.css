@@ -352,6 +352,10 @@ p span{
     margin-top: 50px;
 }
 
+.portfolio-row img{
+    margin: auto;
+}
+
 .black-background {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 40px 40px 40px 40px;
@@ -411,7 +415,7 @@ p span{
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 991px) {
